@@ -1,0 +1,163 @@
+Country,Region,City,NIL,CODICE,PREVALENTE,DISCIPLINA,DENOMINAZI,INDIRIZZO,CATEGORIA,TIPOLOGIA,SEDIME
+Italia,Lombardia,Milano,14 - Niguarda - CÃ  Granda - Prato,78,Servizio unico,Disciplinato PdS,Stazione Termica,Largo Rapallo 0,Infrastrutture tecnologiche e,"Distribuzione acqua potabile, gas metano,",Areale
+Italia,Lombardia,Milano,14 - Niguarda - CÃ  Granda - Prato,223,Servizio unico,Servizio privato,Argomm Teatro,VIA GRAZIANO IMPERATORE 40,Cultura,Teatri e Auditorium,Puntuale
+Italia,Lombardia,Milano,14 - Niguarda - CÃ  Granda - Prato,227,Servizio unico,Disciplinato PdS,Teatro della Cooperativa,VIA PRIVATA HERMADA  8,Cultura,Teatri e Auditorium,Puntuale
+Italia,Lombardia,Milano,14 - Niguarda - CÃ  Granda - Prato,346,Servizio principale,Disciplinato PdS,Scuola Paritaria - Cesari 42,VIA CESARI ANTONIO 40,Istruzione,Scuole dell' infanzia,Areale
+Italia,Lombardia,Milano,14 - Niguarda - CÃ  Granda - Prato,346,Servizio sussidiario,Disciplinato PdS,Duca degli Abruzzi,VIA CESARI ANTONIO 40,Istruzione,Scuole del primo ciclo di istruzione,Areale
+Italia,Lombardia,Milano,14 - Niguarda - CÃ  Granda - Prato,346,Servizio sussidiario,Disciplinato PdS,Cc Cesari,VIA CESARI ANTONIO 40,Amministrativo,Comunali,Areale
+Italia,Lombardia,Milano,14 - Niguarda - CÃ  Granda - Prato,347,Servizio principale,Disciplinato PdS,Locchi,VIA GIAN BATTISTA PASSERINI 4,Istruzione,Scuole del primo ciclo di istruzione,Areale
+Italia,Lombardia,Milano,14 - Niguarda - CÃ  Granda - Prato,347,Servizio sussidiario,Disciplinato PdS,G. Cassinis,VIA GIAN BATTISTA PASSERINI 4,Istruzione,Scuole del primo ciclo di istruzione,Areale
+Italia,Lombardia,Milano,14 - Niguarda - CÃ  Granda - Prato,348,Servizio unico,Disciplinato PdS,Centro Sportivo Pozzo - Polisporitva Lombardia,VIA GIUSEPPE POZZOBONELLI 4,Sport,Centri Polivalenti,Areale
+Italia,Lombardia,Milano,14 - Niguarda - CÃ  Granda - Prato,351,Servizio principale,Disciplinato PdS,Cipm Centro Italiano per la Promozione della,Via Paulucci di Calboli Fulcieri 1,Amministrativo,Comunali,Areale
+Italia,Lombardia,Milano,14 - Niguarda - CÃ  Granda - Prato,351,Servizio sussidiario,Disciplinato PdS,G. Cassinis,Via Paulucci di Calboli Fulcieri 1,Istruzione,Scuole del primo ciclo di istruzione,Areale
+Italia,Lombardia,Milano,14 - Niguarda - CÃ  Granda - Prato,353,Servizio principale,Disciplinato PdS,CSS Comunita Socio Sanitaria E Beltrami CSS,VIA GIOVANNI TERRUGGIA 22,Servizi Sociali,ResidenzialitÃ ,Areale
+Italia,Lombardia,Milano,14 - Niguarda - CÃ  Granda - Prato,353,Servizio sussidiario,Servizio privato,Villa Clerici - Galleria D'arte Sacra dei,VIA GIOVANNI TERRUGGIA 22,Cultura,Musei e sedi espositive assimilabili,Areale
+Italia,Lombardia,Milano,14 - Niguarda - CÃ  Granda - Prato,353,Servizio sussidiario,Servizio privato,"Centro di Consultazione Psicopedagogica ""Villa",VIA GIOVANNI TERRUGGIA 22,Cultura,Centri di documentazione,Areale
+Italia,Lombardia,Milano,14 - Niguarda - CÃ  Granda - Prato,353,Servizio sussidiario,Disciplinato PdS,CDD C C Colombo Vanzago,VIA GIOVANNI TERRUGGIA 22,Servizi Sociali,Diurnato,Areale
+Italia,Lombardia,Milano,14 - Niguarda - CÃ  Granda - Prato,353,Servizio sussidiario,Disciplinato PdS,Centro Diurno Pangea,VIA GIOVANNI TERRUGGIA 22,Servizi Sociali,Diurnato,Areale
+Italia,Lombardia,Milano,14 - Niguarda - CÃ  Granda - Prato,354,Servizio unico,Disciplinato PdS,Polizia di Stato - Centro di Formazione,VIA CESARI ANTONIO 20,Sicurezza e Protezione,Polizia di Stato,Areale
+Italia,Lombardia,Milano,14 - Niguarda - CÃ  Granda - Prato,355,Servizio unico,Disciplinato PdS,Depuratore Bresso - Seveso Sud,VIA DEL REGNO ITALICO 0,Infrastrutture tecnologiche e,Smaltimento e trattamento acque reflue,Areale
+Italia,Lombardia,Milano,14 - Niguarda - CÃ  Granda - Prato,361,Servizio unico,Servizio privato,Campi Sportivi - Parco Nord,VIA PALANZONE 0,Sport,Centri sportivi,Areale
+Italia,Lombardia,Milano,14 - Niguarda - CÃ  Granda - Prato,370,Servizio principale,Disciplinato PdS,Biblioteca Niguarda,VIA GIAN BATTISTA PASSERINI 7,Cultura,Biblioteche di pubblica lettura,Areale
+Italia,Lombardia,Milano,14 - Niguarda - CÃ  Granda - Prato,370,Servizio sussidiario,Disciplinato PdS,Sedi Anagrafe Decentrate Zona 9 Niguarda,VIA GIAN BATTISTA PASSERINI 7,Amministrativo,Comunali,Areale
+Italia,Lombardia,Milano,14 - Niguarda - CÃ  Granda - Prato,370,Servizio sussidiario,Disciplinato PdS,Zona Niguarda,VIA GIAN BATTISTA PASSERINI 7,Sicurezza e Protezione,Polizia Locale,Areale
+Italia,Lombardia,Milano,14 - Niguarda - CÃ  Granda - Prato,371,Servizio unico,Disciplinato PdS,Esercito,VIALE SUZZANI GIOVANNI 131,Sicurezza e Protezione,Forze Armate,Areale
+Italia,Lombardia,Milano,14 - Niguarda - CÃ  Granda - Prato,372,Servizio principale,Disciplinato PdS,III Reparto Mobile,VIA UMBERTO CAGNI 21,Sicurezza e Protezione,Polizia di Stato,Areale
+Italia,Lombardia,Milano,14 - Niguarda - CÃ  Granda - Prato,372,Servizio sussidiario,Disciplinato PdS,"Reparto Prevenzione Crimine ""Lombardia""",VIA UMBERTO CAGNI 21,Sicurezza e Protezione,Polizia di Stato,Areale
+Italia,Lombardia,Milano,14 - Niguarda - CÃ  Granda - Prato,427,Servizio principale,Disciplinato PdS,Cirie' 12,VIA CIRIE' 12,Istruzione,Servizi educativi per l'infanzia,Areale
+Italia,Lombardia,Milano,14 - Niguarda - CÃ  Granda - Prato,427,Servizio sussidiario,Disciplinato PdS,Scuola Paritaria - Cirie' Girola 10,VIA CIRIE' 12,Istruzione,Scuole dell' infanzia,Areale
+Italia,Lombardia,Milano,14 - Niguarda - CÃ  Granda - Prato,428,Servizio sussidiario,Disciplinato PdS,Palletta 6,VIA GIOVANNI BATTISTA PALLETTA 6,Istruzione,Servizi educativi per l'infanzia,Areale
+Italia,Lombardia,Milano,14 - Niguarda - CÃ  Granda - Prato,428,Servizio sussidiario,Disciplinato PdS,Presidio Osp. Niguarda CÃ  Granda,VIA GIOVANNI BATTISTA PALLETTA 6,Salute,Strutture di ricovero e cura,Areale
+Italia,Lombardia,Milano,14 - Niguarda - CÃ  Granda - Prato,428,Servizio sussidiario,Disciplinato PdS,Asl UnitÃ  Operativa,VIA GIOVANNI BATTISTA PALLETTA 6,Salute,Strutture ambulatoriali,Areale
+Italia,Lombardia,Milano,14 - Niguarda - CÃ  Granda - Prato,428,Servizio sussidiario,Servizio privato,Consultorio Pediatrico,VIA GIOVANNI BATTISTA PALLETTA 6,Salute,Strutture ambulatoriali,Areale
+Italia,Lombardia,Milano,14 - Niguarda - CÃ  Granda - Prato,428,Servizio sussidiario,Disciplinato PdS,CDD Cherasco,VIA GIOVANNI BATTISTA PALLETTA 6,Servizi Sociali,Diurnato,Areale
+Italia,Lombardia,Milano,14 - Niguarda - CÃ  Granda - Prato,428,Servizio sussidiario,Disciplinato PdS,Servizio sociale specialistico territoriale zona 9,VIA GIOVANNI BATTISTA PALLETTA 6,Servizi Sociali,Specialistico emergenziale,Areale
+Italia,Lombardia,Milano,14 - Niguarda - CÃ  Granda - Prato,429,Servizio unico,Disciplinato PdS,Val D'ossola 5,VIA VAL D'OSSOLA 5,Istruzione,Servizi educativi per l'infanzia,Areale
+Italia,Lombardia,Milano,14 - Niguarda - CÃ  Granda - Prato,430,Servizio unico,Disciplinato PdS,Cassinis Gino - Trasferita in Via Calboli 1 Via,VIA PRIVATA HERMADA 18,Istruzione,Scuole del primo ciclo di istruzione,Areale
+Italia,Lombardia,Milano,14 - Niguarda - CÃ  Granda - Prato,431,Servizio unico,Disciplinato PdS,Scuola Paritaria - Monterotondo 10,VIA MONTE ROTONDO 10,Istruzione,Scuole dell' infanzia,Areale
+Italia,Lombardia,Milano,14 - Niguarda - CÃ  Granda - Prato,432,Servizio unico,Disciplinato PdS,Gatti F.,VIA FRANCESCO GATTI 12,Istruzione,Scuole dell' infanzia,Areale
+Italia,Lombardia,Milano,14 - Niguarda - CÃ  Granda - Prato,433,Servizio principale,Disciplinato PdS,The British American Preschool S.a.s.,VIA VAL CISMON 9,Istruzione,Scuole dell' infanzia,Areale
+Italia,Lombardia,Milano,14 - Niguarda - CÃ  Granda - Prato,433,Servizio sussidiario,Disciplinato PdS,Scuola Paritaria - The Bilingual European School,VIA VAL CISMON 9,Istruzione,Scuole del primo ciclo di istruzione,Areale
+Italia,Lombardia,Milano,14 - Niguarda - CÃ  Granda - Prato,434,Servizio principale,Disciplinato PdS,Cag Cirie',VIA CIRIE' 9,Servizi Sociali,DomiciliaritÃ ,Areale
+Italia,Lombardia,Milano,14 - Niguarda - CÃ  Granda - Prato,434,Servizio sussidiario,Servizio privato,Centro di Educazione Permanente,VIA CIRIE' 9,Istruzione,Formazione professionale,Areale
+Italia,Lombardia,Milano,14 - Niguarda - CÃ  Granda - Prato,434,Servizio sussidiario,Servizio privato,Centro Aggregativo Multifunzionale - Cam,VIA CIRIE' 9,Cultura,Spazi socio culturali e creativi,Areale
+Italia,Lombardia,Milano,14 - Niguarda - CÃ  Granda - Prato,435,Servizio principale,Disciplinato PdS,Iiss B. Russell,VIA FRANCESCO GATTI 16,Istruzione,Scuole secondarie di secondo grado,Areale
+Italia,Lombardia,Milano,14 - Niguarda - CÃ  Granda - Prato,435,Servizio sussidiario,Servizio privato,Bertrand Russel,VIA FRANCESCO GATTI 16,Istruzione,Scuole secondarie di secondo grado,Areale
+Italia,Lombardia,Milano,14 - Niguarda - CÃ  Granda - Prato,435,Servizio sussidiario,Servizio privato,Bertrand Russel,VIA FRANCESCO GATTI 16,Istruzione,Scuole secondarie di secondo grado,Areale
+Italia,Lombardia,Milano,14 - Niguarda - CÃ  Granda - Prato,436,Servizio principale,Disciplinato PdS,Piscina Scarioni,VIA VALFURVA 9,Sport,Centri sportivi,Areale
+Italia,Lombardia,Milano,14 - Niguarda - CÃ  Granda - Prato,436,Servizio sussidiario,Disciplinato PdS,Parkour,VIA VALFURVA 9,Sport,Centri sportivi,Areale
+Italia,Lombardia,Milano,14 - Niguarda - CÃ  Granda - Prato,437,Servizio principale,Disciplinato PdS,Centro Girola,VIA CARLO GIROLA 30,Servizi Sociali,ResidenzialitÃ ,Areale
+Italia,Lombardia,Milano,14 - Niguarda - CÃ  Granda - Prato,437,Servizio sussidiario,Disciplinato PdS,CDI Girola,VIA CARLO GIROLA 30,Servizi Sociali,Diurnato,Areale
+Italia,Lombardia,Milano,14 - Niguarda - CÃ  Granda - Prato,440,Servizio principale,Disciplinato PdS,Scuola Paritaria - Maria Immacolata,VIALE SUZZANI GIOVANNI 64,Istruzione,Scuole del primo ciclo di istruzione,Areale
+Italia,Lombardia,Milano,14 - Niguarda - CÃ  Granda - Prato,440,Servizio sussidiario,Disciplinato PdS,Scuola Paritaria - Maria Immacolata,VIALE SUZZANI GIOVANNI 64,Istruzione,Scuole dell' infanzia,Areale
+Italia,Lombardia,Milano,14 - Niguarda - CÃ  Granda - Prato,440,Servizio sussidiario,Servizio privato,Maria Ausiliatrice,VIALE SUZZANI GIOVANNI 64,Sport,Strutture sportive oratoriali,Areale
+Italia,Lombardia,Milano,14 - Niguarda - CÃ  Granda - Prato,441,Servizio unico,Disciplinato PdS,Ca' Granda,VIA MONCALIERI 15,Commercio e attivitÃ ,Mercati rionali,Areale
+Italia,Lombardia,Milano,14 - Niguarda - CÃ  Granda - Prato,442,Servizio unico,Disciplinato PdS,Comune di Milano - Civiche Depositerie,VIA FERDINANDO GREGOROVIUS 15,Amministrativo,Comunali,Areale
+Italia,Lombardia,Milano,14 - Niguarda - CÃ  Granda - Prato,444,Servizio principale,Disciplinato PdS,Presidio Ospedaliero Ospedale Niguarda Ca',Piazza dell'Ospedale Maggiore 3,Salute,Strutture di ricovero e cura,Areale
+Italia,Lombardia,Milano,14 - Niguarda - CÃ  Granda - Prato,444,Servizio sussidiario,Servizio privato,Milano Niguarda Ca' Granda - Upg,Piazza dell'Ospedale Maggiore 3,Amministrativo,Uffici degli Enti Pubblici e delle societÃ  di,Puntuale
+Italia,Lombardia,Milano,14 - Niguarda - CÃ  Granda - Prato,444,Servizio sussidiario,Disciplinato PdS,Azienda Ospedaliera Ospedale Niguarda Ca',Piazza dell'Ospedale Maggiore 3,Istruzione,Servizi educativi per l'infanzia,Areale
+Italia,Lombardia,Milano,14 - Niguarda - CÃ  Granda - Prato,444,Servizio sussidiario,Disciplinato PdS,Sezione Ospedaliera C/o Ospedale Niguarda,Piazza dell'Ospedale Maggiore 3,Istruzione,Scuole del primo ciclo di istruzione,Areale
+Italia,Lombardia,Milano,14 - Niguarda - CÃ  Granda - Prato,444,Servizio sussidiario,Disciplinato PdS,Speciale C/o Ospedale Maggiore Niguarda,Piazza dell'Ospedale Maggiore 3,Istruzione,Scuole dell' infanzia,Areale
+Italia,Lombardia,Milano,14 - Niguarda - CÃ  Granda - Prato,444,Servizio sussidiario,Disciplinato PdS,Sezione Ospedaliera C/o Ospedale Maggiore,Piazza dell'Ospedale Maggiore 3,Istruzione,Scuole del primo ciclo di istruzione,Areale
+Italia,Lombardia,Milano,14 - Niguarda - CÃ  Granda - Prato,444,Servizio sussidiario,Disciplinato PdS,Posto di P.s. C/o Ospedale Niguarda,Piazza dell'Ospedale Maggiore 3,Sicurezza e Protezione,Polizia di Stato,Areale
+Italia,Lombardia,Milano,14 - Niguarda - CÃ  Granda - Prato,444,Servizio sussidiario,Disciplinato PdS,Universita' degli Studi - Istituto di Chirurgia,Piazza dell'Ospedale Maggiore 3,UniversitÃ  e ricerca,UniversitÃ ,Areale
+Italia,Lombardia,Milano,14 - Niguarda - CÃ  Granda - Prato,444,Servizio sussidiario,Disciplinato PdS,Ospedale Niguarda Ca' Granda,Piazza dell'Ospedale Maggiore 3,Salute,Pronto soccorso e pronto intervento,Areale
+Italia,Lombardia,Milano,14 - Niguarda - CÃ  Granda - Prato,444,Servizio sussidiario,Disciplinato PdS,Ospedale Niguarda Ca' Granda,Piazza dell'Ospedale Maggiore 3,Salute,Pronto soccorso e pronto intervento,Areale
+Italia,Lombardia,Milano,14 - Niguarda - CÃ  Granda - Prato,444,Servizio sussidiario,Disciplinato PdS,Presidio Osp. Niguarda CÃ  Granda,Piazza dell'Ospedale Maggiore 3,Salute,Strutture di ricovero e cura,Areale
+Italia,Lombardia,Milano,14 - Niguarda - CÃ  Granda - Prato,444,Servizio sussidiario,Servizio privato,Centro di Medicina Iperbarica CÃ  Granda,Piazza dell'Ospedale Maggiore 3,Salute,Strutture ambulatoriali,Areale
+Italia,Lombardia,Milano,14 - Niguarda - CÃ  Granda - Prato,444,Servizio sussidiario,Disciplinato PdS,Ospedale Niguarda Ca' Granda,Piazza dell'Ospedale Maggiore 3,Salute,Pronto soccorso e pronto intervento,Areale
+Italia,Lombardia,Milano,14 - Niguarda - CÃ  Granda - Prato,444,Servizio sussidiario,Disciplinato PdS,Ospedale Niguarda Ca' Granda,Piazza dell'Ospedale Maggiore 3,Salute,Pronto soccorso e pronto intervento,Areale
+Italia,Lombardia,Milano,14 - Niguarda - CÃ  Granda - Prato,444,Servizio sussidiario,Disciplinato PdS,Centro Clinico Nemo - Fondazione Serena,Piazza dell'Ospedale Maggiore 3,Salute,Strutture di ricovero e cura,Areale
+Italia,Lombardia,Milano,14 - Niguarda - CÃ  Granda - Prato,444,Servizio sussidiario,Disciplinato PdS,AUS Niguarda,Piazza dell'Ospedale Maggiore 3,Servizi Sociali,Diurnato,Areale
+Italia,Lombardia,Milano,14 - Niguarda - CÃ  Granda - Prato,445,Servizio unico,Disciplinato PdS,A2A ElettricitÃ  - Ss Elettrica Suzzani,VIA PADRE PIER LUIGI MONTI 5,Infrastrutture tecnologiche e,"Distribuzione acqua potabile, gas metano,",Areale
+Italia,Lombardia,Milano,14 - Niguarda - CÃ  Granda - Prato,446,Servizio principale,Disciplinato PdS,Mm - Stazione Suzzani,VIALE SUZZANI GIOVANNI 121,Infrastrutture tecnologiche e,"Distribuzione acqua potabile, gas metano,",Areale
+Italia,Lombardia,Milano,14 - Niguarda - CÃ  Granda - Prato,446,Servizio sussidiario,Disciplinato PdS,III e IV Reparto Rete,VIALE SUZZANI GIOVANNI 121,Infrastrutture tecnologiche e,"Distribuzione acqua potabile, gas metano,",Areale
+Italia,Lombardia,Milano,14 - Niguarda - CÃ  Granda - Prato,446,Servizio sussidiario,Disciplinato PdS,Comune di Milano - Civiche Depositerie,VIALE SUZZANI GIOVANNI 121,Amministrativo,Comunali,Areale
+Italia,Lombardia,Milano,14 - Niguarda - CÃ  Granda - Prato,488,Servizio unico,Disciplinato PdS,Suzzani 264,VIALE SUZZANI GIOVANNI 264,Istruzione,Servizi educativi per l'infanzia,Areale
+Italia,Lombardia,Milano,14 - Niguarda - CÃ  Granda - Prato,491,Servizio unico,Disciplinato PdS,Scuola Paritaria - F.lli Grimm 11,VIA FRATELLI GRIMM 11,Istruzione,Scuole dell' infanzia,Areale
+Italia,Lombardia,Milano,14 - Niguarda - CÃ  Granda - Prato,492,Servizio unico,Disciplinato PdS,Giovanni Battista Pirelli,VIA GOFFREDO DA BUSSERO 9,Istruzione,Scuole del primo ciclo di istruzione,Areale
+Italia,Lombardia,Milano,14 - Niguarda - CÃ  Granda - Prato,493,Servizio unico,Disciplinato PdS,Scuola Paritaria - T.mann,VIA MANN THOMAS 9,Istruzione,Scuole dell' infanzia,Areale
+Italia,Lombardia,Milano,14 - Niguarda - CÃ  Granda - Prato,494,Servizio principale,Disciplinato PdS,Bambini Bicocca,VIA MANN THOMAS 8,Istruzione,Servizi educativi per l'infanzia,Areale
+Italia,Lombardia,Milano,14 - Niguarda - CÃ  Granda - Prato,494,Servizio sussidiario,Disciplinato PdS,Cc Mann,VIA MANN THOMAS 8,Amministrativo,Comunali,Areale
+Italia,Lombardia,Milano,14 - Niguarda - CÃ  Granda - Prato,494,Servizio sussidiario,Disciplinato PdS,Universita' degli Studi Bicocca - Scienze Umane,VIA MANN THOMAS 8,UniversitÃ  e ricerca,UniversitÃ ,Areale
+Italia,Lombardia,Milano,14 - Niguarda - CÃ  Granda - Prato,494,Servizio sussidiario,Disciplinato PdS,Falcone - Borsellino,VIA MANN THOMAS 8,Istruzione,Scuole del primo ciclo di istruzione,Areale
+Italia,Lombardia,Milano,14 - Niguarda - CÃ  Granda - Prato,494,Servizio sussidiario,Disciplinato PdS,Sandro Pertini,VIA MANN THOMAS 8,Istruzione,Scuole del primo ciclo di istruzione,Areale
+Italia,Lombardia,Milano,14 - Niguarda - CÃ  Granda - Prato,495,Servizio unico,Disciplinato PdS,Suzzani,VIALE SUZZANI GIOVANNI 240,Istruzione,Scuole dell' infanzia,Areale
+Italia,Lombardia,Milano,14 - Niguarda - CÃ  Granda - Prato,496,Servizio sussidiario,Disciplinato PdS,Custode Sociale,VIA RAFFAELLO GIOLLI 29,Servizi Sociali,DomiciliaritÃ ,Areale
+Italia,Lombardia,Milano,14 - Niguarda - CÃ  Granda - Prato,496,Servizio sussidiario,Disciplinato PdS,SSPT Servizio Sociale Professionale Territoriale,VIA RAFFAELLO GIOLLI 29,Servizi Sociali,TerritorialitÃ ,Areale
+Italia,Lombardia,Milano,14 - Niguarda - CÃ  Granda - Prato,496,Servizio sussidiario,Disciplinato PdS,CDI Centro Diurno Integrato Giolli,VIA RAFFAELLO GIOLLI 29,Servizi Sociali,Diurnato,Areale
+Italia,Lombardia,Milano,14 - Niguarda - CÃ  Granda - Prato,497,Servizio unico,Disciplinato PdS,Verga Giovanni,VIA ASTURIE 1,Istruzione,Scuole del primo ciclo di istruzione,Areale
+Italia,Lombardia,Milano,14 - Niguarda - CÃ  Granda - Prato,498,Servizio unico,Disciplinato PdS,Piscina Suzzani,VIA GOFFREDO DA BUSSERO 7,Sport,Centri sportivi,Areale
+Italia,Lombardia,Milano,14 - Niguarda - CÃ  Granda - Prato,500,Servizio principale,Servizio privato,Gesu' Divin Lavoratore,PIAZZA SAN GIUSEPPE 2,Sport,Strutture sportive oratoriali,Areale
+Italia,Lombardia,Milano,14 - Niguarda - CÃ  Granda - Prato,500,Servizio sussidiario,Servizio privato,Teatro di Piazza San Giuseppe,PIAZZA SAN GIUSEPPE 2,Cultura,Teatri e Auditorium,Areale
+Italia,Lombardia,Milano,14 - Niguarda - CÃ  Granda - Prato,501,Servizio unico,Disciplinato PdS,Universita' Cattolica del Sacro Cuore - Centro,VIALE SUZZANI GIOVANNI 279,UniversitÃ  e ricerca,UniversitÃ ,Areale
+Italia,Lombardia,Milano,14 - Niguarda - CÃ  Granda - Prato,503,Servizio sussidiario,Servizio privato,Comunale N.41,VIALE SUZZANI GIOVANNI 239,Salute,Studi e attivitÃ  professionali,Puntuale
+Italia,Lombardia,Milano,14 - Niguarda - CÃ  Granda - Prato,504,Servizio principale,Disciplinato PdS,Pensionato,VIALE TESTI FULVIO 285,Servizi Sociali,ResidenzialitÃ ,Areale
+Italia,Lombardia,Milano,14 - Niguarda - CÃ  Granda - Prato,506,Servizio unico,Disciplinato PdS,Mm - Servizio Idrico Integrato,VIALE TESTI FULVIO 325,Infrastrutture tecnologiche e,"Distribuzione acqua potabile, gas metano,",Areale
+Italia,Lombardia,Milano,14 - Niguarda - CÃ  Granda - Prato,507,Servizio unico,Servizio privato,Ebs European Business School,VIALE TESTI FULVIO 223,UniversitÃ  e ricerca,UniversitÃ ,Areale
+Italia,Lombardia,Milano,14 - Niguarda - CÃ  Granda - Prato,509,Servizio unico,Servizio privato,Gesu' Divin Lavoratore,VIA AREZZO 2,Sport,Strutture sportive oratoriali,Areale
+Italia,Lombardia,Milano,14 - Niguarda - CÃ  Granda - Prato,516,Servizio unico,Servizio privato,Polizia di Stato - Caserma,VIA CESARI ANTONIO 20,Sicurezza e Protezione,Polizia di Stato,Areale
+Italia,Lombardia,Milano,14 - Niguarda - CÃ  Granda - Prato,547,Servizio unico,Disciplinato PdS,CSRC Polo Santa Monica,VIA SANTA MONICA 4,Servizi Sociali,Diurnato,Areale
+Italia,Lombardia,Milano,14 - Niguarda - CÃ  Granda - Prato,1228,Servizio unico,Disciplinato PdS,Appartamento,VIA PONALE 66,Servizi Sociali,ResidenzialitÃ ,Puntuale
+Italia,Lombardia,Milano,14 - Niguarda - CÃ  Granda - Prato,1566,Servizio principale,Disciplinato PdS,L'altra Associazione Onlus,VIA SIDERNO 4,Servizi Sociali,Diurnato,Areale
+Italia,Lombardia,Milano,14 - Niguarda - CÃ  Granda - Prato,1566,Servizio sussidiario,Disciplinato PdS,CSE Centro Socio Educativo,VIA SIDERNO 4,Servizi Sociali,Diurnato,Areale
+Italia,Lombardia,Milano,14 - Niguarda - CÃ  Granda - Prato,1979,Servizio unico,Servizio privato,Milano Succ. 78 - Upg,VIA PONALE 6,Amministrativo,Uffici degli Enti Pubblici e delle societÃ  di,Puntuale
+Italia,Lombardia,Milano,14 - Niguarda - CÃ  Granda - Prato,2039,Servizio unico,Disciplinato PdS,Appartamento,VIA PONALE 66,Servizi Sociali,ResidenzialitÃ ,Puntuale
+Italia,Lombardia,Milano,14 - Niguarda - CÃ  Granda - Prato,2186,Servizio unico,Servizio privato,S. Carlo Alla Ca' Granda,Largo Rapallo 5,Sport,Strutture sportive oratoriali,Areale
+Italia,Lombardia,Milano,14 - Niguarda - CÃ  Granda - Prato,2348,Servizio unico,Disciplinato PdS,Depuratore Bresso - Seveso Sud,VIA DEL REGNO ITALICO 0,Infrastrutture tecnologiche e,Smaltimento e trattamento acque reflue,Areale
+Italia,Lombardia,Milano,14 - Niguarda - CÃ  Granda - Prato,2495,Servizio unico,Disciplinato PdS,Palanzone 10,VIA PALANZONE 0,Istruzione,Servizi educativi per l'infanzia,Areale
+Italia,Lombardia,Milano,14 - Niguarda - CÃ  Granda - Prato,2685,Servizio unico,Disciplinato PdS,Settore Parchi e Giardini,VIA AUSONIO ZUBIANI 1,Amministrativo,Comunali,Areale
+Italia,Lombardia,Milano,14 - Niguarda - CÃ  Granda - Prato,2894,Servizio unico,Disciplinato PdS,Stazione Carabinieri,VIALE TESTI FULVIO 119,Sicurezza e Protezione,Carabinieri,Areale
+Italia,Lombardia,Milano,14 - Niguarda - CÃ  Granda - Prato,3111,Servizio unico,Servizio privato,S. Martino In Niguarda,PIAZZA BELLOVESO 5,Sport,Strutture sportive oratoriali,Areale
+Italia,Lombardia,Milano,14 - Niguarda - CÃ  Granda - Prato,3169,Servizio unico,Disciplinato PdS,"Fondazione Clerici - ""Maria Belloni""",VIA ANGELO BELLONI 3,Istruzione,Formazione professionale,Areale
+Italia,Lombardia,Milano,14 - Niguarda - CÃ  Granda - Prato,3286,Servizio unico,Servizio privato,S. Dionigi In Pratocentenaro,VIALE SUZZANI GIOVANNI 75,Sport,Strutture sportive oratoriali,Areale
+Italia,Lombardia,Milano,14 - Niguarda - CÃ  Granda - Prato,3307,Servizio unico,Disciplinato PdS,Asd Niguarda Calcio,VIA AREZZO 13,Sport,Centri Polivalenti,Areale
+Italia,Lombardia,Milano,14 - Niguarda - CÃ  Granda - Prato,3350,Servizio unico,Disciplinato PdS,CSRC Ermanno Masini,VIA GRIVOLA 10,Servizi Sociali,Diurnato,Areale
+Italia,Lombardia,Milano,14 - Niguarda - CÃ  Granda - Prato,3468,Servizio unico,Servizio privato,Dr Pediatra Iulitta Paola,VIA MONTE ROTONDO 21,Salute,Studi e attivitÃ  professionali,Puntuale
+Italia,Lombardia,Milano,14 - Niguarda - CÃ  Granda - Prato,3487,Servizio unico,Servizio privato,Dr Pediatra Marzano Daniela,VIA MONTE ROTONDO 21,Salute,Studi e attivitÃ  professionali,Puntuale
+Italia,Lombardia,Milano,14 - Niguarda - CÃ  Granda - Prato,3548,Servizio principale,Disciplinato PdS,Itis L. Galvani,VIA FRANCESCO GATTI 14,Istruzione,Scuole secondarie di secondo grado,Areale
+Italia,Lombardia,Milano,14 - Niguarda - CÃ  Granda - Prato,3548,Servizio sussidiario,Servizio privato,Lss Galvani,VIA FRANCESCO GATTI 14,Istruzione,Scuole secondarie di secondo grado,Areale
+Italia,Lombardia,Milano,14 - Niguarda - CÃ  Granda - Prato,3590,Servizio unico,Servizio privato,Ecomuseo Urbano di Niguarda,VIA ANTONIO CESARI 17,Cultura,Musei e sedi espositive assimilabili,Puntuale
+Italia,Lombardia,Milano,14 - Niguarda - CÃ  Granda - Prato,3649,Servizio unico,Disciplinato PdS,CAD Centro Aggregazione Disabili,VIA LUIGI ORNATO 7,Servizi Sociali,Diurnato,Puntuale
+Italia,Lombardia,Milano,14 - Niguarda - CÃ  Granda - Prato,3650,Servizio unico,Disciplinato PdS,SFA Servizi Formazione Autonomia,VIA LUIGI ORNATO 7,Servizi Sociali,Diurnato,Puntuale
+Italia,Lombardia,Milano,14 - Niguarda - CÃ  Granda - Prato,3688,Servizio principale,Disciplinato PdS,Mic Museo Interattivo del Cinema,VIALE FULVIO TESTI 121,Cultura,Musei e sedi espositive assimilabili,Areale
+Italia,Lombardia,Milano,14 - Niguarda - CÃ  Granda - Prato,3688,Servizio sussidiario,Servizio privato,Mic Museo Interattivo del Cinema - Library,VIALE FULVIO TESTI 121,Cultura,Biblioteche specialistiche e di,Areale
+Italia,Lombardia,Milano,14 - Niguarda - CÃ  Granda - Prato,3688,Servizio sussidiario,Disciplinato PdS,Fondazione Milano - Civica Scuola di Cinema,VIALE FULVIO TESTI 121,Istruzione,Formazione professionale,Areale
+Italia,Lombardia,Milano,14 - Niguarda - CÃ  Granda - Prato,3688,Servizio sussidiario,Disciplinato PdS,Centro Sperimentale di Cinematografia,VIALE FULVIO TESTI 121,Istruzione,Formazione professionale,Areale
+Italia,Lombardia,Milano,14 - Niguarda - CÃ  Granda - Prato,3722,Servizio unico,Servizio privato,S. Carlo Alla Ca' Granda,Largo Rapallo 5,Sport,Strutture sportive oratoriali,Areale
+Italia,Lombardia,Milano,14 - Niguarda - CÃ  Granda - Prato,4099,Servizio unico,Disciplinato PdS,Consolato Generale Onorario di Sierra Leone,VIALE TESTI FULVIO 121,Amministrativo,Consolato,Puntuale
+Italia,Lombardia,Milano,14 - Niguarda - CÃ  Granda - Prato,4135,Servizio unico,Disciplinato PdS,Progetti di accoglienza,VIA VAL DI LEDRO 23,Servizi Sociali,ResidenzialitÃ ,Puntuale
+Italia,Lombardia,Milano,14 - Niguarda - CÃ  Granda - Prato,4138,Servizio unico,Disciplinato PdS,Progetti di accoglienza,VIA PRIVATA HERMADA 14,Servizi Sociali,ResidenzialitÃ ,Puntuale
+Italia,Lombardia,Milano,14 - Niguarda - CÃ  Granda - Prato,4299,Servizio unico,Disciplinato PdS,ProgettoCasa Alloggio Erika,VIA LANFRANCO DELLA PILA 57,Servizi Sociali,Residenzialita,Puntuale
+Italia,Lombardia,Milano,14 - Niguarda - CÃ  Granda - Prato,20187,Servizio unico,Servizio privato,Milano Succ. 97 - Upg,VIALE CA' GRANDA 2,Amministrativo,Uffici degli Enti Pubblici e delle societÃ  di,Puntuale
+Italia,Lombardia,Milano,14 - Niguarda - CÃ  Granda - Prato,20191,Servizio unico,Disciplinato PdS,Pubblica Assistenza Niguarda,VIA GRAZIANO IMPERATORE 40,Salute,Pronto soccorso e pronto intervento,Puntuale
+Italia,Lombardia,Milano,14 - Niguarda - CÃ  Granda - Prato,20198,Servizio unico,Disciplinato PdS,Scuola Paritaria - Paolo Santagostino,PIAZZA BELLOVESO 6,Istruzione,Scuole dell' infanzia,Areale
+Italia,Lombardia,Milano,14 - Niguarda - CÃ  Granda - Prato,20200,Servizio unico,Servizio privato,Milano Succ. 69 - Upg,VIA MARCO TULLIO CICERONE 4,Amministrativo,Uffici degli Enti Pubblici e delle societÃ  di,Puntuale
+Italia,Lombardia,Milano,14 - Niguarda - CÃ  Granda - Prato,20201,Servizio unico,Disciplinato PdS,Inps - Agenzia di Produzione Milano Niguarda,VIA MARCO TULLIO CICERONE 14,Amministrativo,Uffici degli Enti Pubblici e delle societÃ  di,Puntuale
+Italia,Lombardia,Milano,14 - Niguarda - CÃ  Granda - Prato,20203,Servizio unico,Servizio privato,Milano Succ. 78 - Upg,VIA PONALE 6,Amministrativo,Uffici degli Enti Pubblici e delle societÃ  di,Puntuale
+Italia,Lombardia,Milano,14 - Niguarda - CÃ  Granda - Prato,30241,Servizio unico,Servizio privato,Baby Gioco,VIA ARGANINI GEROLAMO 30,Istruzione,Servizi educativi per l'infanzia,Puntuale
+Italia,Lombardia,Milano,14 - Niguarda - CÃ  Granda - Prato,30283,Servizio unico,Disciplinato PdS,Seconda Stella A Destra,VIA MONTE ROTONDO 9,Istruzione,Servizi educativi per l'infanzia,Puntuale
+Italia,Lombardia,Milano,14 - Niguarda - CÃ  Granda - Prato,30316,Servizio principale,Servizio privato,Auditorium Ca' Granda,VIALE SUZZANI GIOVANNI 13,Cultura,Teatri e Auditorium,Areale
+Italia,Lombardia,Milano,14 - Niguarda - CÃ  Granda - Prato,30316,Servizio sussidiario,Disciplinato PdS,La Nuvola Blu,VIALE SUZZANI GIOVANNI 13,Istruzione,Servizi educativi per l'infanzia,Areale
+Italia,Lombardia,Milano,14 - Niguarda - CÃ  Granda - Prato,30422,Servizio unico,Servizio privato,Malnati Federico,VIA GIOVANNI TERRUGGIA 1,Salute,Studi e attivitÃ  professionali,Puntuale
+Italia,Lombardia,Milano,14 - Niguarda - CÃ  Granda - Prato,30425,Servizio unico,Servizio privato,Calderara Giuseppe,VIA VALFURVA 3,Salute,Studi e attivitÃ  professionali,Puntuale
+Italia,Lombardia,Milano,14 - Niguarda - CÃ  Granda - Prato,30747,Servizio unico,Servizio privato,Cgil Sindacato Pensionati Italiani,VIA VAL MAIRA 6,Cultura,Spazi socio culturali e creativi,Puntuale
+Italia,Lombardia,Milano,14 - Niguarda - CÃ  Granda - Prato,30749,Servizio unico,Disciplinato PdS,Inps - Uo Niguarda,VIA ADRIATICO 6,Amministrativo,Uffici degli Enti Pubblici e delle societÃ  di,Puntuale
+Italia,Lombardia,Milano,14 - Niguarda - CÃ  Granda - Prato,30750,Servizio unico,Disciplinato PdS,La Compagnia dei Birichini,VIA LUIGI ORNATO 51,Istruzione,Servizi educativi per l'infanzia,Puntuale
+Italia,Lombardia,Milano,14 - Niguarda - CÃ  Granda - Prato,30751,Servizio unico,Servizio privato,Mondo Piccino,VIA GIOVANNI TERRUGGIA 6,Istruzione,Servizi educativi per l'infanzia,Puntuale
+Italia,Lombardia,Milano,14 - Niguarda - CÃ  Granda - Prato,30752,Servizio unico,Servizio privato,Niguarda Soccorso,PIAZZA SAN GIUSEPPE 8,Salute,Pronto soccorso e pronto intervento,Puntuale
+Italia,Lombardia,Milano,14 - Niguarda - CÃ  Granda - Prato,39160,Servizio unico,Servizio privato,Bicocca,VIALE SUZZANI GIOVANNI 273,Salute,Studi e attivitÃ  professionali,Puntuale
+Italia,Lombardia,Milano,14 - Niguarda - CÃ  Granda - Prato,39162,Servizio unico,Servizio privato,Ca' Granda,VIA MICHELE DE ANGELIS 15,Salute,Studi e attivitÃ  professionali,Puntuale
+Italia,Lombardia,Milano,14 - Niguarda - CÃ  Granda - Prato,39176,Servizio unico,Servizio privato,Comunale N.8,VIA VAL MAIRA 14,Salute,Studi e attivitÃ  professionali,Puntuale
+Italia,Lombardia,Milano,14 - Niguarda - CÃ  Granda - Prato,39177,Servizio unico,Servizio privato,Comunale N.10,VIA PALANZONE 33,Salute,Studi e attivitÃ  professionali,Puntuale
+Italia,Lombardia,Milano,14 - Niguarda - CÃ  Granda - Prato,39179,Servizio unico,Servizio privato,Comunale N.16,VIALE SUZZANI GIOVANNI 155,Salute,Studi e attivitÃ  professionali,Puntuale
+Italia,Lombardia,Milano,14 - Niguarda - CÃ  Granda - Prato,39185,Servizio unico,Servizio privato,Niguarda,VIA MONTE ROTONDO 1,Salute,Studi e attivitÃ  professionali,Puntuale
+Italia,Lombardia,Milano,14 - Niguarda - CÃ  Granda - Prato,39187,Servizio unico,Servizio privato,Ornato,VIA LUIGI ORNATO 13,Salute,Studi e attivitÃ  professionali,Puntuale
+Italia,Lombardia,Milano,14 - Niguarda - CÃ  Granda - Prato,39194,Servizio unico,Servizio privato,Suzzani,VIALE SUZZANI GIOVANNI 18,Salute,Studi e attivitÃ  professionali,Puntuale
+Italia,Lombardia,Milano,14 - Niguarda - CÃ  Granda - Prato,Disciplinato PdS,RUSCONI GIOVANNI & C. snc,,,Via Claudio Achillini 2,Infrastrutture tecnologiche e per,Infrastrutture tecnologiche e per l'ambiente soggette,Puntuale
+Italia,Lombardia,Milano,14 - Niguarda - CÃ  Grande - Prato,LDC - 77,Disciplinato PAR,S. Martino In Niguarda,,Piazza Belloveso 5,Attrezzature religiose,Areale,Esistente
+Italia,Lombardia,Milano,14 - Niguarda - CÃ  Grande - Prato,LDC - 102,Disciplinato PAR,S. Dionigi In Santi Clemente E Guido,,Largo S. Dionigi in Pratocentenaro 1,Attrezzature religiose,Areale,Esistente
+Italia,Lombardia,Milano,14 - Niguarda - CÃ  Grande - Prato,LDC - 123,Disciplinato PAR,Gesu' Divin Lavoratore,,Piazza San Giuseppe 2,Attrezzature religiose,Areale,Esistente
+Italia,Lombardia,Milano,14 - Niguarda - CÃ  Grande - Prato,LDC - 215,Disciplinato PAR,S. Maria Annunciata In Niguarda,,Piazza dell'Ospedale Maggiore 3,Attrezzature religiose,Areale,Esistente
+Italia,Lombardia,Milano,14 - Niguarda - CÃ  Grande - Prato,LDC - 296,Disciplinato PAR,Chiesa di Dio ministeriale di GesÃ¹ Cristo Internazionale,,Via Guido Da Velate 3,Attrezzature religiose,Puntuale,Esistente
+Italia,Lombardia,Milano,14 - Niguarda - CÃ  Grande - Prato,LDC - 307,Disciplinato PAR,Chiesa di Scientology di Milano,,Viale Fulvio Testi 327,Attrezzature religiose,Puntuale,Esistente
