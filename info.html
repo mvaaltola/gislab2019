@@ -1,0 +1,120 @@
+<!DOCTYPE HTML>
+<!--
+	Phantom by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>GIS Lab project 2019</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	</head>
+	<body class="is-preload">
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Header -->
+					<header id="header">
+						<div class="inner">
+
+							<!-- Logo -->
+								<a href="index.html" class="logo">
+									<span class="title">POLIMI</span>
+								</a>
+
+							<!-- Nav -->
+								<nav>
+									<ul>
+										<li><a href="#menu">Menu</a></li>
+									</ul>
+								</nav>
+
+						</div>
+					</header>
+
+				<!-- Menu -->
+					<nav id="menu">
+						<h2>Menu</h2>
+						<ul>
+							<li><a href="index.html">Home</a></li>
+							<li><a href="map.html">Map</a></li>
+							<li><a href="info.html">Information</a></li>
+							<li><a href="about.html">About</a></li>
+						</ul>
+					</nav>
+
+				<!-- Main -->
+					<div id="main">
+						<div class="inner">
+							<h1>Information</h1>
+							<h2>Project overview</h2>
+							<p>This project is a part of the 2019-2020 Geographic Information Systems course at the Politecnico di Milano. The main goal of the project was to calculate a walkability index for a given area of Milano. Students were split into groups of four, and each group was assigned their own area. <a href="http://systematica.net" target="_blank">Systematica</a> provided each group with a base road network of their assigned area that also contained some of the necessary data to calculate the PLOS. The rest of the parameters had to be gathered by the groups in the field. After calculating the PLOS, each group was to present their results on a webpage.</p>
+							<h2>Main steps</h2>
+							<p>The implementation of the project consisted of three main steps</p>
+							<ol>
+								<li>Gather field data from Niguarda</li>
+								<li>Process the gathered data and calculate the PLOS</li>
+								<li>Present the results of the project on a webpage</li>
+							</ol>
+							<p>Each step is described in greater detail below.</p>
+							<h2>Data collection</h2>
+							<p>Data was gathered from the group's allocated zone in Niguarda, northern Milano on 2019.12.08 and 2019.12.10 using the <a href="https://five.epicollect.net" target="_blank">Epicollect5</a> platform and mobile application. For each segment of road, the group collected various parameters that are necessary for PLOS calculation. These included the following:</p>
+								<ul>
+									<li>width of sidewalk</li>
+									<li>width of buffer/shoulder</li>
+									<li>number of lanes</li>
+									<li>number of lights</li>
+									<li>number of curb ramps</li>
+									<li>on-street parking</li>
+								</ul>
+							<p>Each finding was registered on the Epicollect mobile application and stored with GPS coordinates. Besides the main values, the data could also include photos or notes. After completing the measurements for the entire area, each member of the team uploadded their collected data points to a common project on Epicollect servers. From there, the data was exported in csv format and merged into a single file.</p>
+							<h2>Data processing</h2>
+							<p>After the data had been downloaded, it needed some processing before the PLOS could be calculated. This process is also described briefly in the readme file on the project's GitHub repository. The main steps were as follows:</p>
+							<ol>
+								<li>Import the points from the csv file into a GIS and save the data to an appropriate format. In this case, data was stored in GeoPackage format.</li>
+								<li>Filter out inaccurate measurements using the accuracy property of each data point.</li>
+								<li>Filter out some lighting measurements from 2019.12.08 that were correctly remeasured on 2019.12.10.</li>
+								<li>Create a 15 meter buffer from the road data provided by Systematica</li>
+								<li>Spatially join the points to the roads using the created buffer. The points were assigned a road_fid value that tied each point to a road segment.</li>
+								<li>Highlight duplicate points created by the spatial join. Points near intersections where multiple road buffers overlapped were duplicated in the spatial join.</li>
+								<li>Go through the highlighted duplicate points and determine on a one-by-one basis which road the point belonged to. In most cases, it was immediately obvious which road segment a measurement should be assigned to. Only the correctly assigned point was kept while others were deleted.</li>
+								<li>Separate points to multiple layers, grouping by measurement type.</li>
+								<li>Aggregate points with same road_fid value so each road segment only has one value for each data type. Values were summed for lighting and curb ramps, while for other data types the average value was used. The aggregation affected only a few road segments.</li>
+								<li>Create new fields in the road data and join the measured data to the roads by using the road_fid values given to each point.</li>
+								<li>Manually fill in data for segments with missing values. These were mostly short segments that on the field had no noticeable difference to the main segment from which they continued. Therefore, the same sidewalk width, number of lanes, etc. values could be used for these segments. For lighting and curb ramps, null values were replaced with 0.</li>
+								<li>Calculate the PLOS using the formula provided by Systematica</li>
+							</ol>
+							<p>All of the spatial data processing was done using QGIS. The PLOS was calculated for the road dataset enriched with the field measurement data. PLOS was calculated using the expression:</p>
+							<pre>
+								<code>6.0468 + 0.0091*("vm"/(4*"nth")) + 4*(("sr"*0.621371)/100)^2 - 1.2276*ln(<br/>("wv"*3.28084) + 0.5*("w1"*3.28084) + 50*"ppk" + ("wbuff"*3.28084)*5.37 + ("waa"*3.28084)*"fsw")</code>
+							</pre>
+							<h2>Results presentation</h2>
+							<p>The road network data with calculated enhanced PLOS was exported from the GeoPackage to a GeoJSON file. The JSON was converted to a JS object by simply adding a variable declaration to the beginning of the file. A simple Leaflet map element was then created, where the data was loaded directly from the JS object. Loading data direclty from the object negates the need for a server backend.</p>
+							<p>According to project specifications, the user can choose from one of three basemaps, all from MapBox. Additional basemaps such as the OSM basemap could also be added if deemed necessary. The road data itself can also be toggled on or off. Users can click on each road segment to display its name and the calculated PLOS value. The road network data is styled in the Leaflet component using a simple styling function. The function utilizes five pre-made classes calculated in QGIS to color each road segment by its PLOS value. A map legend is located on the bottom-left corner to show users the PLOS value ranges the colors represent.</p>
+							<p>This webpage is hosted on GitHub pages from the public <a href="https://github.com/mvaaltola/gislab2019" target="_blank">project git repository</a>. The design of the page is based on the <a href="https://html5up.net/phantom" target="_blank">Phantom</a> preset on html5up.net</p>
+						</div>
+					</div>
+
+				<!-- Footer -->
+					<footer id="footer">
+						<div class="inner">
+							<ul class="copyright">
+								<li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+							</ul>
+						</div>
+					</footer>
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
