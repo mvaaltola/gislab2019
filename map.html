@@ -196,29 +196,40 @@
 					"Public services": serviceslayer
 				};
 
-				var mymap = L.map('mapid', {
-					center: [45.517325, 9.193786],
-					zoom: 16,
-					layers: [dark, roadlayer, serviceslayer]
-				});
-
-				L.control.layers(baseMaps, overlayMaps).addTo(mymap);
-
 				var legend = L.control({ position: "bottomleft" });
+
+				var ploslegend = '<h4>Legend</h4><span>PLOS</span><br/><i style="background: #f7fbff"></i><span>0-0.37</span><br/><i style="background: #c8ddf0"></i><span>0.37-0.78</span><br/><i style="background: #73b3d8"></i><span>0.78-1.32</span><br/><i style="background: #2879b9"></i><span>1.32-2.05</span><br/><i style="background: #08306b"></i><span>2.05-2.75</span><br/>';
+
+				var eploslegend = '<h4>Legend</h4><span>Enhanced PLOS</span><br/><i style="background: #fcfbfd"></i><span>0-0.12</span><br/><i style="background: #dcdcec"></i><span>0.12-0.58</span><br/><i style="background: #a3a0cb"></i><span>0.58-1.04</span><br/><i style="background: #6a51a3"></i><span>1.4-1.8</span><br/><i style="background: #3f007d"></i><span>1.8-2.5</span><br/>';
+
+				var eplosdifflegend = '<h4>Legend</h4><span>PLOS-EPLOS</span><br/><i style="background: #ddf2d7"></i><span>0</span><br/><i style="background: #b2e0ab"></i><span>0.25</span><br/><i style="background: #7bc87c"></i><span>0.375</span><br/><i style="background: #3da75a"></i><span>0.5</span><br/><i style="background: #137e3a"></i><span>0.625</span><br/>';
+
 
 				legend.onAdd = function(mymap) {
 					var div = L.DomUtil.create("div", "legend");
-					div.innerHTML += "<h4>Legend</h4>"
-					div.innerHTML += "<span>PLOS</span><br/>"
-					div.innerHTML += '<i style="background: #f7fbff"></i><span>0-0.37</span><br/>';
-					div.innerHTML += '<i style="background: #c8ddf0"></i><span>0.37-0.78</span><br/>';
-					div.innerHTML += '<i style="background: #73b3d8"></i><span>0.78-1.32</span><br/>';
-					div.innerHTML += '<i style="background: #2879b9"></i><span>1.32-2.05</span><br/>';
-					div.innerHTML += '<i style="background: #08306b"></i><span>2.05-2.75</span><br/>';
+					div.innerHTML = ploslegend;
 					return div;
 				};
+
+				var mymap = L.map('mapid', {
+					center: [45.517325, 9.193786],
+					zoom: 16,
+					layers: [dark, ploslayer, serviceslayer]
+				});
+
+				mymap.on('overlayadd', function(e){
+					var legenddiv = legend.getContainer();
+					if (e.name == "Enhanced PLOS") {
+						legenddiv.innerHTML = eploslegend;
+					} else if (e.name == "Enhanced PLOS Difference") {
+						legenddiv.innerHTML = eplosdifflegend;
+					} else if (e.name == "PLOS") {
+						legenddiv.innerHTML = ploslegend;
+					};
+				});
+				L.control.layers(baseMaps, overlayMaps).addTo(mymap);
 				legend.addTo(mymap);
 			</script>
 
-	</body>
+</body>
 </html>
