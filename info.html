@@ -56,7 +56,7 @@
 							<p>The implementation of the project consisted of three main steps</p>
 							<ol>
 								<li>Gather field data from Niguarda</li>
-								<li>Process the gathered data and calculate the PLOS</li>
+								<li>Process the gathered data and calculate PLOS and Enhanced PLOS</li>
 								<li>Present the results of the project on a webpage</li>
 							</ol>
 							<p>Each step is described in greater detail below.</p>
@@ -91,6 +91,12 @@
 							<pre>
 								<code>6.0468 + 0.0091*("vm"/(4*"nth")) + 4*(("sr"*0.621371)/100)^2 - 1.2276*ln(<br/>("wv"*3.28084) + 0.5*("w1"*3.28084) + 50*"ppk" + ("wbuff"*3.28084)*5.37 + ("waa"*3.28084)*"fsw")</code>
 							</pre>
+							<p>Enhanced PLOS (EPLOS) is calculated from the PLOS by subtracting a value from each road segment. The value is based on local lighting, curb ramps, pedestrian crossings, public transport stops and certain points of interest (POI). EPLOS is calculated by checking how many of these categories are present near each road, and subtracting <code>0.125*"# of values"</code> from the PLOS value.</p>
+							<p>Lighting and curb ramp data was available from the collected field data. Public service data for Niguarda was available from the city of Milan in csv format. Public services were geocoded based on the address data in the csv file using the MMQGIS QGIS plugin.</p>
+							<p>Public transport stops, pedestrian crossings and POIs were acquired from OpenStreetMap (OSM) data downloaded from the <a href="https://geofabrik.de" target="_blank">geofabrik.de</a> download service. A shapefile extract of OSM data from north-west Italy was first clipped to only include data from around Niguarda and saved to Geopackage format. The relevant layers containing public transit stops, pedestrian crossings and POIs were then filtered. POIs including the tag "bench", "drinking_water", "fountain", "waste_basket", and "camera_surveillance" were ignored, as well as public transport stops including "taxi" and traffic data points not containing the tag "crossing".</p>
+							<p>The additional data points were then joined to the 15m road buffer layer used previously. The value used to calculate EPLOS is dependent only on the local presence of certain features, not their amount. This meant each category could be joined to the road buffer could be done using a simple "yes or no" method. In practice, this meant creating a new field for each category, and assigning a value 1 to the relevant field of each road segment if one or more features of a category intersected with its 15m buffer. These values were then summed, multiplied by 0.125 and subtracted from the plos to get the EPLOS value for each road segment.</p>
+							<pre><code>EPLOS = PLOS - 0.125 * (POIs + crossings + stops + curbramps + lights)<br/>where values of (POIs, crossings, stops, curbramps) in (0,1).</code></pre>
+							<p>Finally, an additional <code>eplosdiff = PLOS - EPLOS</code> field was calculated to be used for visualizing the difference between basic and enhanced PLOS.</p>
 							<h2>Results presentation</h2>
 							<p>The road network data with calculated enhanced PLOS was exported from the GeoPackage to a GeoJSON file. The JSON was converted to a JS object by simply adding a variable declaration to the beginning of the file. A simple Leaflet map element was then created, where the data was loaded directly from the JS object. Loading data direclty from the object negates the need for a server backend.</p>
 							<p>According to project specifications, the user can choose from one of three basemaps, all from MapBox. Additional basemaps such as the OSM basemap could also be added if deemed necessary. The road data itself can also be toggled on or off. Users can click on each road segment to display its name and the calculated PLOS value. The road network data is styled in the Leaflet component using a simple styling function. The function utilizes five pre-made classes calculated in QGIS to color each road segment by its PLOS value. A map legend is located on the bottom-left corner to show users the PLOS value ranges the colors represent.</p>
