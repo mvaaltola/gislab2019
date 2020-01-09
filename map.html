@@ -100,6 +100,28 @@
 					id: 'mapbox/dark-v10',
 					accessToken: token
 				});
+				let here = {
+					code: "VWDzqTEnF4LLs6xD8twV",
+					id: "vq0942m_dYV3M4HjDDZPsBLEfahX0Zcc0Fuvzmb8UXE"
+				};
+				let herestyle ='normal.day';
+				let hereTileUrl = `https://2.base.maps.api.here.com/maptile/2.1/maptile/newest/${herestyle}/{z}/{x}/{y}/512/png8?app_id=${here.id}&app_code=${here.code}&ppi=320`;
+				var herelayer = L.tileLayer(hereTileUrl);
+
+				let cyclemap = L.tileLayer('https://dev.{s}.tile.openstreetmap.fr/cyclosm/{z}/{x}/{y}.png', {
+					maxZoom: 20,
+					attribution: '<a href="https://github.com/cyclosm/cyclosm-cartocss-style/releases" title="CyclOSM - Open Bicycle render">CyclOSM</a> | Map data: &copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+				});
+
+				var carto = L.tileLayer('https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png', {
+					attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors &copy; <a href="https://carto.com/attributions">CARTO</a>',
+					subdomains: 'abcd',
+					maxZoom: 19
+				});
+
+				var esri = L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/World_Street_Map/MapServer/tile/{z}/{y}/{x}', {
+					attribution: 'Tiles &copy; Esri &mdash; Source: Esri, DeLorme, NAVTEQ, USGS, Intermap, iPC, NRCAN, Esri Japan, METI, Esri China (Hong Kong), Esri (Thailand), TomTom, 2012'
+				});
 
 				let linewt = 5;
 				var ploslayer = L.geoJSON(rds_eplos, {
@@ -187,7 +209,10 @@
 				var baseMaps = {
 					"Streets": streets,
 					"Satellite": sat,
-					"Dark": dark
+					"Dark": dark,
+					"Cycle map": cyclemap,
+					"Carto Positron": carto,
+					"Esri Worldstreetmap": esri
 				};
 				var overlayMaps = {
 					"PLOS": ploslayer,
