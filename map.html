@@ -17,7 +17,7 @@
 		<script src="https://unpkg.com/leaflet@1.6.0/dist/leaflet.js"
 		integrity="sha512-gZwIG9x3wUXg2hdXF6+rVkLF/0Vi9U8D2Ntg4Ga5I5BZpVkVxlJWbSQtXPSiUTtC0TjtGOmxa1AJPuV0CPthew=="
 		crossorigin=""></script>
-		<script src="rds.js" type="text/javascript"></script>
+		<script src="rds_eplos.js" type="text/javascript"></script>
 		<script src="services.js" type="text/javascript"></script>
 	</head>
 	<body class="is-preload">
@@ -101,7 +101,8 @@
 					accessToken: token
 				});
 
-				var roadlayer = L.geoJSON(rds, {
+				let linewt = 5;
+				var ploslayer = L.geoJSON(rds_eplos, {
 					onEachFeature: function(feature, layer) {
 						layer.bindPopup('<h3>'+feature.properties.roadname+'</h3><p>PLOS value: '+feature.properties.plos+'</p>');
 					},
@@ -118,7 +119,51 @@
 						}
 						return {
 							color: col,
-							weight: 5
+							weight: linewt
+						}
+					}
+				});
+
+				var eploslayer = L.geoJSON(rds_eplos, {
+					onEachFeature: function(feature, layer) {
+						layer.bindPopup('<h3>'+feature.properties.roadname+'</h3><p>EPLOS value: '+feature.properties.eplos+'</p>');
+					},
+					style: function(feature) {
+						let col = "#3f007d"
+						if (feature.properties.eplos < 0.12) {
+							col = "#fcfbfd";
+						} else if (feature.properties.eplos < 0.58) {
+							col = "#dcdcec";
+						} else if (feature.properties.eplos < 1.04) {
+							col = "#a3a0cb";
+						} else if (feature.properties.eplos < 1.8) {
+							col = "#6a51a3";
+						}
+						return {
+							color: col,
+							weight: linewt
+						}
+					}
+				});
+
+				var eplosdifflayer = L.geoJSON(rds_eplos, {
+					onEachFeature: function(feature, layer) {
+						layer.bindPopup('<h3>'+feature.properties.roadname+'</h3><p>PLOS-EPLOS: '+feature.properties.eplosdiff+'</p>');
+					},
+					style: function(feature) {
+						let col = "#ddf2d7"
+						if (feature.properties.eplosdiff == 0.25) {
+							col = "#b2e0ab";
+						} else if (feature.properties.eplosdiff == 0.375) {
+							col = "#7bc87c";
+						} else if (feature.properties.eplosdiff == 0.5) {
+							col = "#3da75a";
+						} else if (feature.properties.eplosdiff == 0.625) {
+							col = "#137e3a";
+						}
+						return {
+							color: col,
+							weight: linewt,
 						}
 					}
 				});
@@ -145,7 +190,9 @@
 					"Dark": dark
 				};
 				var overlayMaps = {
-					"Roads": roadlayer,
+					"PLOS": ploslayer,
+					"Enhanced PLOS": eploslayer,
+					"Enhanced PLOS Difference": eplosdifflayer,
 					"Public services": serviceslayer
 				};
 
